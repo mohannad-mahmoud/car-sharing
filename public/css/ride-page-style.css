@@ -1,0 +1,91 @@
+.parent {
+    width: 100%;
+}
+
+.city {
+    font-size: 18px;
+}
+
+.child {
+    width: 100%;
+}
+
+.ratings {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+.checked {
+    color: yellow;
+    font-size: 24px;
+}
+.unchecked {
+    font-size: 24px;
+}
+
+.btn {
+    width: 150px;
+}
+.rightthird {
+    position: relative;
+    height: 11vh;
+}
+
+.booking {
+    position: absolute;
+    top: 50%;
+}
+
+.ratingNum {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.read {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.strikethrough {
+    position: relative;
+}
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: inherit;
+
+    transform: rotate(-35deg);
+}
+
+i {
+    font-size: 24px;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+hr {
+    height: 6px;
+    font-weight: 800;
+}
+
+h6,
+h3,
+h5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .strikethrough {
+        width: 55px;
+    }
+
+}

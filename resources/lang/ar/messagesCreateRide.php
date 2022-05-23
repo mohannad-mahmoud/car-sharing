@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'createRide' => 'انشاء رحلة',
+    'setRideName'=> 'اسم رحلتك',
+    'selectYourCar'=> 'اختر سيارتك',
+    'sourceCity' => 'مدينة الانطلاق',
+    'enrouteCity' => 'مدينة في الوسط',
+    'destinationCity' => 'المدينة الهدف',
+    'numberOfEmptySeats' => 'عدد المقاعد الفارغة',
+    'clientCost' => 'تكلفة الراكب',
+    'smokingAllow' => 'هل تسمح بالتدخين',
+    'musicAllow' => 'هل تسمح بتشغيل الموسيقا',
+    'animalsAllow' => 'هل تسمح باصطحاب الحيوانات الاليفة',
+    'foodAllow' => 'هل تسمح بتناول الطعام',
+    'startDate' => 'تاريخ الانطلاق',
+    'arriveDate' => 'تاريخ الوصول',
+    'startTime' => 'ساعة الانطلاق',
+    'arriveTime' => 'ساعة الوصول',
+    'rideStatus' => 'حالة الرحلة',
+    'active' => 'مفعلة',
+    'notActive' => 'غير مفعلة',
+    'yes' => 'نعم',
+    'no' => 'لا',
+    'licensedMessage' => 'انت لست سائق مرخص .. من فضلك ارسل طلب اثبات رخصة الى مدير الموقع',
+    'addCar' => 'اضف سيارة',
+    'updateRide' => 'تعديل الرحلة',
+    'showRides' => 'عرض الرحلات',
+    'sendLicenseRequest' => 'ارسل طلب ترخيص',
+
+
+    'identifier' => 'صورة عن الهوية',
+    'license' => 'صورة عن شهادة السواقة',
+    'insurance' => 'صورة عن التأمين عن الشامل',
+    'send' => 'ارسل الطلب',
+    'licenseRequest' => 'طلب ترخيص سائق',
+];

@@ -1,0 +1,84 @@
+.card-img {
+    width: 70%;
+    height: 70%;
+}
+
+.contactInfo {
+    width: 70%;
+}
+
+.btn-success {
+    width: 100%;
+}
+.ratings {
+    width: 100%;
+}
+.personalInfo {
+    width: 75%;
+}
+.img-container {
+    height: 40vh;
+}
+.col-4, .col-2 {
+    border: 1px solid gray;
+}
+.justify-content-between .btn {
+    width: 100%;
+}
+
+#car-carousel {
+    height: 100%;
+    width: 100%;
+}
+
+.checked {
+    color: yellow;
+    font-size: 24px;
+}
+.unchecked {
+    font-size: 24px;
+}
+
+i {
+    font-size: 20px;
+}
+.car{
+    height: 50%;
+}
+
+.car a > img {
+    height : 250px;
+}
+
+.owl-carousel .car  a {
+    overflow: hidden;
+}
+.owl-carousel  img {
+    transition: transform 0.5s ease;
+}
+.owl-carousel  img:hover {
+    transform: scale(1.1);
+}
+.owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    left: 100;
+}
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+    font-size: 55px;
+    color: #003859;
+    padding: 2 1rem;
+}
+.owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -2rem;
+}
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+.owl-carousel .owl-nav button.owl-next span {
+    margin-right: -2rem;
+}
